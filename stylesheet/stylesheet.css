@@ -8,13 +8,54 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 27px;
 }
 
 img {
     width: 10%;
     margin-left: 45%;
 
+}
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: white
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #00C1FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 150px
+}
+}
 }
 
 }}
